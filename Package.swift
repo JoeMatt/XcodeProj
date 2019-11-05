@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/tadija/AEXML", .upToNextMinor(from: "4.4.0")),
         .package(url: "https://github.com/kylef/PathKit", .upToNextMinor(from: "1.0.0")),
-        .package(url: "https://github.com/apple/swift-package-manager", .branch("swift-5.0-RELEASE")),
+        .package(url: "https://github.com/apple/swift-package-manager", .upToNextMinor(from: "0.5.0")),
     ],
     targets: [
         .target(name: "XcodeProj",
